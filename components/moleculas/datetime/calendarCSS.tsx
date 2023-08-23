@@ -1,12 +1,13 @@
 import {StyleSheet} from 'react-native';
 export const styles = StyleSheet.create({
-  container: {flex: 1, flexDirection: 'row'},
+  container: {flexDirection: 'row'},
   button: {
     flex: 1,
-    backgroundColor: 'steelblue',
     justifyContent: 'center',
     alignItems: 'center',
-    borderRadius: 20
+    borderBottomColor: '#f6b10e',
+    borderBottomWidth: 5,
+    paddingVertical: 10
   },
   text: {
     color: 'black'
